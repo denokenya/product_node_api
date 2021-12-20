@@ -1,7 +1,6 @@
 //import model
-import req from "express/lib/request";
-import res from "express/lib/response";
-import Product from "../models/Product";
+
+import Product from "../models/Product.js";
 
 //get All products
 
@@ -52,7 +51,7 @@ export const updateProduct =async (req,res) => {
         res.status(200).json(updatedProduct)
 
     } catch (error){
-        res.status(400).json({message: error.message}):
+        res.status(400).json({message: error.message});
     }
 
 }

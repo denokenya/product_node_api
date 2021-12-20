@@ -3,7 +3,7 @@ import express from "express";
 //import mongoose
 import mongoose from "mongoose";
 //import routes
-import { route } from "./routes/index.js";
+import route from "./routes/index.js";
 //import cors
 import cors from "cors";
 
